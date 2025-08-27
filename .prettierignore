@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+
+# Documentation
+CHANGELOG.md
+
+# Generated files
+*.generated.ts
+*.generated.js
+*.min.js
+*.min.css
+
+# Migrations
+migrations/
+
+# Temporary files
+tmp/
+temp/
+
+# Git
+.git/
+.gitignore
+
+# CI
+.github/
+.gitlab/
+
+# Docker
+Dockerfile*
+docker-compose*
