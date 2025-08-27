@@ -1,0 +1,98 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars.backup
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# SSH Keys - NEVER commit these!
+*.pem
+*.key
+*.pub
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# AWS
+.aws/
+aws-exports.js
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node
+node_modules/
+.npm
+.yarn/
+dist/
+build/
+
+# Database backups
+*.sql
+*.dump
+*.backup
+backups/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+.history/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Application
+uploads/
+temp/
+tmp/
+cache/
+
+# Secrets - CRITICAL!
+secrets/
+credentials/
+*.secret
+config.json
+app-config.json
+
+# Terraform sensitive outputs
+outputs.json
+plan.out
+
+# CloudWatch agent
+amazon-cloudwatch-agent.json
