@@ -1,4 +1,5 @@
 import { Injectable } from '@nestjs/common';
+
 import { HealthCheckResponse, HealthStatus } from '../shared';
 
 @Injectable()
