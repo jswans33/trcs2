@@ -95,4 +95,4 @@ outputs.json
 plan.out
 
 # CloudWatch agent
-amazon-cloudwatch-agent.json
+amazon-cloudwatch-agent.jsoncoverage/

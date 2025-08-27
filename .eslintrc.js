@@ -20,7 +20,7 @@ module.exports = {
     node: true,
     jest: true,
   },
-  ignorePatterns: ['.eslintrc.js', 'node_modules/', 'dist/', 'coverage/'],
+  ignorePatterns: ['.eslintrc.js', 'jest.config.js', 'node_modules/', 'dist/', 'coverage/'],
   rules: {
     // TypeScript Strict Rules
     '@typescript-eslint/no-explicit-any': 'error',
